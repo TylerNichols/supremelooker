@@ -1,0 +1,28 @@
+.lookbook {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.lookbook-item {
+    background: tomato;
+    padding: 5x;
+    width: 375px;
+    height: 500px;
+    margin-top: 5px;
+    margin-left: 5px;
+    line-height: 45px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  }
